@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Your Page Title</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body style="background-image: url('https://img.freepik.com/premium-photo/businessman-giving-house-keys-house-model-customer-blue-background-refinance-plan-real-estate-concept_144352-506.jpg');background-repeat: no-repeat;background-attachment: fixed;background-size: cover;">  
+
+    <div class="banner">
+        <div class="navbar">
+            <ul>
+                <li><a href="home.html">ABOUT US</a></li>
+                <li><a href="#">SUPPORT</a></li>                                   
+            </ul>
+        </div>
+        <div class="content">
+            <div class="image">
+                <h1 style='color:black;'>WELCOME</h1>
+                <div>
+                    <button id="updateSlotsBtn">UPDATE SLOTS</button>
+                    <button onclick="window.location.href='#'">Requests</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script>
+        document.getElementById("updateSlotsBtn").addEventListener("click", function() {
+            var totalSlots = prompt("Enter total slots:");
+            if (totalSlots !== null && !isNaN(totalSlots)) {
+                // Data added successfully
+                alert("Data added successfully");
+            } else {
+                // Invalid input or user cancelled
+                alert("Invalid input or operation cancelled.");
+            }
+        });
+    </script>
+</body>
+</html>
+
+        </div>

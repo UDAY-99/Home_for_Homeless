@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home for Homeless</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-image: url('https://img.freepik.com/premium-photo/house-family-figures-blue-background-insurance-homeless-support-adoption-concept-buy-build-house-new-property-mortgage-real-estate-home-sale-banner-with-copy-space-3d-render_429124-3362.jpg');
+            background-size: cover;
+            background-repeat: no-repeat;
+        }
+
+        header {
+            background-color: white;
+            padding: 20px;
+            text-align: center;
+            color: white;
+        }
+
+        .container {
+            display: flex;
+            justify-content: space-around;
+            flex-wrap: wrap;
+            padding: 20px;
+        }
+
+        .frame {
+            width: 150px; /* Adjust size as needed */
+            height: 150px; /* Adjust size as needed */
+            margin-bottom: 20px;
+            overflow: hidden;
+            position: relative;
+            background-size: cover;
+            background-position: center;
+        }
+
+        .button {
+            background-color: orangered;
+            color: white;
+            border: none;
+            padding: 10px 20px;
+            text-align: center;
+            text-decoration: none;
+            display: inline-block;
+            font-size: 16px;
+            margin: 4px 2px;
+            cursor: pointer;
+            transition: background-color 0.3s ease;
+        }
+
+        .button:hover {
+            background-color:black; /* change to desired hover color */
+        }
+
+        .frame1 {
+            background-image: url('image1.jpg');
+        }
+
+        .frame2 {
+            background-image: url('image2.jpg');
+        }
+
+        .frame3 {
+            background-image: url('image3.jpg');
+        }
+
+        footer {
+            background-color: orange;
+            padding: 10px;
+            text-align: center;
+            color: white;
+            position: fixed;
+            bottom: 0;
+            width: 100%;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1 style="color: blue;">Home for Homeless</h1>
+        <div>
+            <a href="#" class="button">About Us</a>
+            <a href="#" class="button">Contact Us</a>
+            <a href="#" class="button">Profile</a>
+        </div>
+    </header>
+
+    <div class="container">
+        <div class="frame frame1">
+            <div>
+                <a href="leaderboard.html" class="button">Leaderboard</a>
+            </div>
+        </div>
+        <div class="frame frame2">
+            <div>
+                <a href="donation.html" class="button">Donation</a>
+            </div>
+        </div>
+        <div class="frame frame3">
+            <div>
+                <a href="request.html" class="button">Post Request</a>
+            </div>
+        </div>
+    </div>
+
+    <footer>
+        &copy; 2024 Home for Homeless
+    </footer>
+</body>
+</html>
